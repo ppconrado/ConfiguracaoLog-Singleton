@@ -32,4 +32,8 @@ public class ConfiguracaoSingleton {
         return autor;
     }
 
+    public String getUrlBanco() {
+        return urlBanco;
+    }
+
 }

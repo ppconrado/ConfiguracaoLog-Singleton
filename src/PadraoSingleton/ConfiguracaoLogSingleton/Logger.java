@@ -27,6 +27,9 @@ public class Logger {
         return instance;
     }
 
+
+    //public static Logger get
+
     // Método de log
     public void log(LogLevel level, String message) {
         String formattedMessage = formatMessage(level, message);
